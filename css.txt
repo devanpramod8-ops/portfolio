@@ -1,0 +1,140 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0d0d0d; /* Dark hacker vibe */
+  color: #eaeaea;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #111, #1a1a1a);
+  border-bottom: 2px solid #00ff88;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #00ff88;
+  text-shadow: 0 0 15px rgba(0, 255, 136, 0.6);
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #bbbbbb;
+}
+
+/* Section Layout */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.1);
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  border-bottom: 2px solid #00ff88;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  color: #00ff88;
+}
+
+/* Skills */
+#skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#skills li {
+  background: #262626;
+  margin: 0.4rem 0;
+  padding: 0.6rem;
+  border-left: 4px solid #00ff88;
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+
+#skills li:hover {
+  transform: translateX(5px);
+  background: #2f2f2f;
+}
+
+/* Projects */
+#projects div {
+  margin-bottom: 1.5rem;
+}
+
+#projects h3 {
+  margin: 0.5rem 0;
+  color: #00ff88;
+}
+
+.button {
+  display: inline-block;
+  background: #00ff88;
+  color: #0d0d0d;
+  padding: 0.6rem 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #0d0d0d;
+  color: #00ff88;
+  border: 1px solid #00ff88;
+}
+
+/* Contact */
+#contact p,
+#contact a {
+  font-size: 1.1rem;
+}
+
+#contact a {
+  color: #00ff88;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #111;
+  margin-top: 2rem;
+  border-top: 1px solid #00ff88;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  section {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+}

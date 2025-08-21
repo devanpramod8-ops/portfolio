@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevanPramod | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>DevanPramod</h1>
+    <p>Cyber Security</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Cybersecurity researcher with hands-on experience in ethical hacking, network security, and finding system weaknesses. Trained in penetration testing using TryHackMe and Hack The Box. Skilled in setting up routers, switches, and secure networks using Cisco tools and basic firewalls. Strong understanding of how computer networks work and how to protect them.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Wireshark</li>   
+      <li>Nmap</li>
+      <li>Wifite</li>
+      <li>Nikto</li>
+      <li>Maltego</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div>
+      <h3>PicoCTF</h3>
+      <p>PicoCTF – A beginner-friendly online cybersecurity game with hacking challenges.</p>
+      <a href="#" class="button">GitHub</a>
+
+      <h3>Wordlist Forge</h3>
+      <p>Wordlist Forge – A tool for creating custom wordlists for password cracking or security testing.</p>
+      <a href="#" class="button">GitHub</a>
+
+      <h3>TryHackMe</h3>
+      <p>TryHackMe – An online platform for learning cybersecurity through hands-on labs and challenges.</p>
+      <a href="#" class="button">GitHub</a>
+  </section>
+
+     <section id="contact">
+    <h2>Contact</h2>
+    <p>DevanPramod@email.com</p>
+    <a href="www.linkedin.com/in/devan-pramod-ba15a2355</a>
+</section>
+
+  <footer>
+    <p>© 2025 DevanPramod </p>
+  </footer>
+</body>
+</html>
