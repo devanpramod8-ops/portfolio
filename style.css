@@ -1,0 +1,120 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #000000;
+    overflow-x: hidden;
+}
+
+/* MATRIX BACKGROUND */
+#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.4;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.highlight {
+    color: #ff2e2e; /* red glow */
+    text-shadow: 0 0 20px #ff2e2e;
+}
+
+.subtitle {
+    margin-top: -10px;
+    font-size: 18px;
+    color: #ff9e9e;
+}
+
+/* SOCIAL LINKS */
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ff4d4d;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff1c1c;
+    text-shadow: 0 0 12px #ff1c1c, 0 0 20px #ff0000;
+}
+
+/* SECTION STYLING */
+.section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+    backdrop-filter: blur(4px);
+}
+
+.section h2 {
+    border-left: 4px solid #ff2e2e;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 12px #ff0000;
+}
+
+/* CARDS */
+.card-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.card {
+    padding: 15px;
+    background: rgba(255, 30, 30, 0.1);
+    border: 1px solid #ff2e2e;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    color: #ffb3b3;
+}
+
+.card:hover {
+    background: rgba(255, 30, 30, 0.2);
+    box-shadow: 0 0 18px #ff2e2e;
+    transform: scale(1.07);
+}
+
+/* EXPERIENCE CARD */
+.exp-card {
+    padding: 20px;
+    border: 1px solid #ff2e2e;
+    background: rgba(255, 20, 20, 0.1);
+    border-radius: 12px;
+    color: #ffbfbf;
+}
+
+.exp-card ul li {
+    margin-bottom: 8px;
+}
+
+/* TYPEWRITER */
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #ff2e2e;
+    animation: typing 3s steps(30), blink 0.7s infinite;
+    font-size: 32px;
+    text-shadow: 0 0 10px #ff2e2e;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
